@@ -57,6 +57,96 @@
         <h1>Cart</h1>
     </div>
 </div>
+<div class="shopping-cart">
+  <!-- Title -->
+  <div class="title">
+    Shopping Cart
+  </div>
+  <!-- Product #1 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="DenBarb.jpg" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>Denison Barb</span>
+      <span>Tropical</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button" font='20px'>
+        <img src="plus.svg" alt="" />
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">
+        <img src="minus.svg" alt="" />
+      </button>
+    </div>
+ 
+    <div class="total-price">$6</div>
+  </div>
+ 
+  <!-- Product #2 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+    <div class="image">
+      <img src="YellowCic.jpg" alt=""/>
+    </div>
+ 
+    <div class="description">
+      <span>African Cichlid</span>
+      <span>Yellow Lab</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        <img src="plus.svg" alt="" />
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">
+        <img src="minus.svg" alt="" />
+      </button>
+    </div>
+ 
+    <div class="total-price">$60</div>
+  </div>
+ 
+  <!-- Product #3 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+    <div class="image">
+      <img src="betta.jpg" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>MALE Elephant Ear Betta</span>
+      <span>Light Orange</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        <img src="plus.svg" alt="" />
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button" width="1">
+        <img src="minus.svg" alt=""/>
+      </button>
+    </div>
+ 
+    <div class="total-price">$25</div>
+  </div>
+</div>    
 <div class="container">
     <p>LLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br></p>
 </div>
