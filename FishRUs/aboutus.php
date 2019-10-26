@@ -82,6 +82,26 @@
         </div>
     </div>
 </div>
+<div class="container">
+    <h3>PHP MySQL contact us form with validation using Bootstrap</h3>
+    <form action="pro.php" method="POST">
+        <div class="form-group">
+            <label>Name:</label>
+            <input type="text" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label>Message:</label>
+            <textarea class="form-control" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
 <!--- Scripting --->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
